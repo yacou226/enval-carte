@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 130" role="img" aria-label="ENVAL">
+<path d="M22 69 C43 26 91 12 127 8 C78 25 52 46 48 75 C45 99 68 113 112 120 C54 117 12 105 22 69Z" fill="#1597a5"/>
+<path d="M115 28 C150 4 184 5 216 12 C273 21 321 45 331 71 C343 100 303 118 245 122 C298 108 319 91 309 68 C298 42 249 25 207 22 C174 19 144 21 115 28Z" fill="#75bd43"/>
+<path d="M148 23 C160 1 186 -3 207 9 C193 28 170 35 148 23Z" fill="#75bd43"/>
+<path d="M220 1 C242 8 251 25 246 44 C225 34 215 19 220 1Z" fill="#75bd43"/>
+<text x="55" y="91" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="300" letter-spacing="2" fill="#75bd43">en</text>
+<text x="151" y="91" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="300" letter-spacing="2" fill="#1597a5">va</text>
+<text x="256" y="91" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="300" letter-spacing="2" fill="#75bd43">l</text>
+</svg>

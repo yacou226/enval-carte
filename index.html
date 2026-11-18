@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1597a5">
+  <meta name="description" content="Carte de visite numérique de Beh Diarrassouba, Directeur Adjoint des Opérations chez ENVAL.">
+  <title>Beh Diarrassouba | ENVAL</title>
+  <style>
+    :root { --teal:#1597a5; --green:#75bd43; --ink:#17212b; --muted:#64717d; }
+    * { box-sizing:border-box; }
+    body {
+      margin:0; min-height:100vh; padding:28px 16px;
+      display:flex; align-items:center; justify-content:center;
+      font-family:Arial,Helvetica,sans-serif; color:var(--ink);
+      background:linear-gradient(145deg,#eaf7f7,#f4f8ef);
+    }
+    main { width:min(100%,650px); background:#fff; border-radius:22px; overflow:hidden;
+      box-shadow:0 18px 55px rgba(20,60,65,.13); }
+    .top { padding:28px 24px 18px; text-align:center; }
+    .logo { width:min(230px,65%); height:auto; object-fit:contain; margin:0 auto 16px; }
+    h1 { font-size:clamp(24px,5vw,32px); margin:8px 0 5px; letter-spacing:.2px; }
+    .role { margin:0; color:var(--muted); font-size:16px; }
+    .card-image { display:block; width:100%; height:auto; border-top:1px solid #edf0f0; border-bottom:1px solid #edf0f0; }
+    .actions { padding:22px; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+    a.action { min-height:52px; display:flex; align-items:center; justify-content:center; text-align:center;
+      padding:12px 10px; border-radius:12px; text-decoration:none; font-weight:700; color:#fff; background:var(--teal); }
+    a.action.green { background:#69ae3b; }
+    a.action.light { background:#f0f7ed; color:#326c25; border:1px solid #dcebd4; }
+    .address { padding:0 22px 22px; text-align:center; color:var(--muted); font-size:14px; line-height:1.5; }
+    footer { background:#f7faf8; padding:14px; text-align:center; font-size:12px; color:#7b878d; }
+    @media(max-width:380px) { .actions { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="top">
+      <img class="logo" src="assets/logo-enval.svg" alt="Logo ENVAL">
+      <h1>BEH DIARRASSOUBA</h1>
+      <p class="role">Directeur Adjoint des Opérations</p>
+    </section>
+    <img class="card-image" src="assets/carte-enval.jpg" alt="Carte de visite ENVAL">
+    <section class="actions" aria-label="Coordonnées">
+      <a class="action" href="tel:+2250749335182">📞 Appeler</a>
+      <a class="action green" href="https://wa.me/2250749335182" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="action light" href="mailto:beh@enval-group.com">✉ Envoyer un e-mail</a>
+      <a class="action light" href="https://www.enval-group.com" target="_blank" rel="noopener">🌐 Site ENVAL</a>
+      <a class="action light" href="beh-diarrassouba-enval.vcf" download>＋ Enregistrer le contact</a>
+    </section>
+    <p class="address">Cocody-Angré, 8ème Tranche, Cité BCEAO<br>Abidjan, Côte d’Ivoire</p>
+    <footer>Carte de visite numérique · ENVAL</footer>
+  </main>
+</body>
+</html>
